@@ -32,6 +32,7 @@
             txtID = new TextBox();
             txtPW = new TextBox();
             btnLogin = new Button();
+            lblErrorMsg = new Label();
             SuspendLayout();
             // 
             // lblAppName
@@ -77,7 +78,7 @@
             // 
             btnLogin.BackColor = SystemColors.ActiveCaption;
             btnLogin.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            btnLogin.Location = new Point(146, 296);
+            btnLogin.Location = new Point(146, 320);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(359, 43);
             btnLogin.TabIndex = 1;
@@ -85,11 +86,24 @@
             btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
+            // lblErrorMsg
+            // 
+            lblErrorMsg.AutoSize = true;
+            lblErrorMsg.Font = new Font("맑은 고딕", 9F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            lblErrorMsg.ForeColor = Color.Red;
+            lblErrorMsg.Location = new Point(146, 270);
+            lblErrorMsg.Name = "lblErrorMsg";
+            lblErrorMsg.Size = new Size(242, 15);
+            lblErrorMsg.TabIndex = 4;
+            lblErrorMsg.Text = "아이디 또는 비밀번호가 일치하지 않습니다.";
+            lblErrorMsg.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(665, 497);
+            Controls.Add(lblErrorMsg);
             Controls.Add(btnLogin);
             Controls.Add(txtPW);
             Controls.Add(txtID);
@@ -107,5 +121,6 @@
         private TextBox txtID;
         private TextBox txtPW;
         private Button btnLogin;
+        private Label lblErrorMsg;
     }
 }

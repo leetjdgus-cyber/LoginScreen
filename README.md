@@ -8,7 +8,10 @@
   - Label, TextBox, Button
   ## 실행 화면
 - 1단계 코드의 실행 스크린샷
-- 
+
 <img width="661" height="516" alt="image" src="https://github.com/user-attachments/assets/feb15f2e-e9c3-463d-9c46-7579ef8da912" />
 <img width="654" height="514" alt="image" src="https://github.com/user-attachments/assets/de01fdd8-2f8c-4294-9a75-fd27d3c12f8e" />
 <img width="656" height="514" alt="image" src="https://github.com/user-attachments/assets/860efc58-f8e6-4d67-91dc-cb1117df8a27" />
+
+- 2단계 코드의 실행 스크린샷
+<img width="658" height="517" alt="image" src="https://github.com/user-attachments/assets/0d3034d5-becf-468e-9e07-0fa349c2bb25" />
