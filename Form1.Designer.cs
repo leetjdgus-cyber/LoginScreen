@@ -96,6 +96,7 @@
             Controls.Add(lblAppName);
             Name = "Form1";
             Text = "Login Screen";
+            Load += ㅌ;
             ResumeLayout(false);
             PerformLayout();
         }

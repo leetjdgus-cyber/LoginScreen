@@ -87,5 +87,10 @@ namespace LoginScreen
                 btnLogin.PerformClick(); // 버튼이 눌린 것처럼 만들기}
             }
         }
+
+        private void ㅌ(object sender, EventArgs e)
+        {
+
+        }
     }
 }
